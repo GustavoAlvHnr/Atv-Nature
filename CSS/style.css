@@ -1,0 +1,86 @@
+/*===========================================
+                Geral
+===========================================*/
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(15px + 0.390625vw);
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*==============================================
+                Header
+============================================*/
+header{
+    background-color: #3b8686;
+    padding: 20px 10vw 20px 10vw;
+
+}
+header nav{
+    display: flex;
+    justify-content: space-between;align-items: center;
+}
+header nav ul{
+    display: flex;
+}
+header nav ul li{
+    margin: 0 40px 0 40px;
+}
+header nav ul li a.atual{
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+}
+/*=============================================
+                Conteudo
+=============================================*/
+section.banner{
+    padding: 15vw 10vw 5vw 10vw;
+    background: linear-gradient(rgba(121, 109, 174, 0.2), rgba(121, 109, 174, 0.2)), url(../src/back-banner.png) no-repeat center center;
+    background-size: 100% auto;
+}
+section.banner h2{
+    font-size: 3rem;
+    color: #ffffff;
+    background-color: rgba(59, 134, 134, 0.5);
+    width: 50%;
+    padding: 1vw 1vw 1vw 1vw;
+}
+/*==============================================
+                Servico
+==============================================*/
+section.servico{
+    padding: 7vw 10vw 7vw 10vw;
+}
+section.servico ul{
+    display: flex;
+    justify-content: space-between;
+}
+section.servico ul li{
+    text-align: center;
+    width: 22%;
+}
+section.servico ul li span{
+    font-size: 3.5rem;
+    margin: 0 0 1vw 0;
+}
+section.servico ul li h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 1vw 0 1vw 0;
+    color: #2d2d2d;
+}
+section.servico ul li p{
+    margin: 2vw 0 2vw 0;
+    font-weight: lighter;
+    color: #747474;
+}
+section.servico ul li button{
+    padding: 7px 5px;
+    font-size: 1.2rem;
+    background-color: #3b8686;
+    border: hidden;
+    color: #ffffff;
+}
