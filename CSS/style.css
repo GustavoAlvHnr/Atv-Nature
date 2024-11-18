@@ -78,9 +78,88 @@ section.servico ul li p{
     color: #747474;
 }
 section.servico ul li button{
-    padding: 7px 5px;
+    padding: 9px 7px;
     font-size: 1.2rem;
     background-color: #3b8686;
     border: hidden;
     color: #ffffff;
+}
+/*==============================================
+                Banner2
+==============================================*/
+section.banner2{
+    padding: 5vw 5vw 5vw 5vw;
+    background: linear-gradient(rgba(121, 189, 154, 0.5), rgba(121, 189, 154, 0.5)), url(../src/back-numeros.png) no-repeat center center;
+    background-size: 100% auto;
+}
+section.banner2 ul{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+    text-align: center;
+    
+}
+section.banner2 ul li {
+    font-size: 1.5rem;
+    width: 25%;
+}
+
+/*==============================================
+            Possibilidades
+==============================================*/
+section.possibilidades{
+    padding: 7vw 10vw;
+    display: flex;
+
+}
+section.possibilidades h2{
+    font-size: 1.5rem;
+    color: #0B486B;
+    padding: 0 0 2vw 0 ;
+}
+section.possibilidades p{
+    font-size: .9 rem;
+    color: #747474;
+    font-weight: lighter;
+    width: 75%;
+    padding: 0 0 2vw 0;
+}
+section.possibilidades button{
+    padding: 9px 7px;
+    background-color: #0B486B;
+    font-size: 1.2rem;
+    border: hidden;
+    color: #ffffff;
+}
+
+/*==============================================
+                Footer
+==============================================*/
+
+footer{
+    background-color: #3B8686;
+    color: #ffffff;
+    text-align: center;
+
+}
+footer ul.geral{
+    display: flex;
+    justify-content: space-around;
+    padding: 1vw 10vw 1vw 0;
+}
+footer ul.icones{
+    display: flex;
+    justify-content: space-around;
+}
+footer ul li{
+    padding: 10px 0 10px 0;
+}
+footer ul li p{
+    padding: 10px 0 10px 0;
+}
+footer ul li p span{
+    font-weight: bold;
+}
+footer ul.indice{
+    text-align: right;
 }
